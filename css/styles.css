@@ -32,6 +32,7 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -288,10 +289,20 @@ link:focus {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background.jpg);
+    url(../images/bg-phone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media screen and {
+  .first-section {
+    background-image: url(../images/bg-tablet.jpg);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .first-section {
+    background-image: url(../images/background.jpg);
+  }
 }
 .title {
   font-weight: 700;
