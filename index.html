@@ -47,6 +47,75 @@
           </li>
         </ul>
       </address>
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/modal.svg#burger">
+          </use>
+        </svg>
+      </button>
+      <div class="menu-overlay">
+        <div class="menu">
+          <button class="close-btn" type="button"><svg class="modal-svg-item" width="8" height="8">
+              <use href="./images/modal.svg#close"></use>
+            </svg>
+          </button>
+          <nav class="nav-menu-overlay">
+            <ul class="menu-nav-menu">
+              <li>
+                <a href="./index.html" class="link menu-link menu-nav-studio">Studio</a>
+              </li>
+              <li>
+                <a href="" class="link menu-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="link menu-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address-menu">
+            <ul class="menu-contacts">
+              <li>
+                <a href="mailto:info@devstudio.com" class="address-link">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="address-link number-link">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="media-icons-list-menu">
+            <li class="media-icons">
+              <a href="" class="media-link"><svg class="svg" width="16" height="16">
+                  <use href="./images/icons.svg#insta">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-icons">
+              <a href="" class="media-link"><svg class="svg" width="16" height="16">
+                  <use href="./images/icons.svg#x">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-icons">
+              <a href="" class="media-link"><svg class="svg" width="16" height="16">
+                  <use href="./images/icons.svg#fb">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-icons">
+              <a href="" class="media-link"><svg class="svg" width="16" height="16">
+                  <use href="./images/icons.svg#in">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
   <main>
@@ -468,8 +537,10 @@
                 <use href="./images/modal.svg#check"></use>
               </svg>
             </span>
-            I accept the terms and conditions of the
-            <a href="" class="link-policy">Privacy Policy</a>
+            <span class="policy-span">
+              I accept the terms and conditions of the
+              <a href="" class="link-policy">Privacy Policy</a>
+            </span>
           </label>
         </div>
         <button class="send-btn" type="submit">Send</button>
