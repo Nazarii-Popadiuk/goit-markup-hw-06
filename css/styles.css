@@ -545,6 +545,9 @@ link:focus {
   }
 }
 @media screen and (min-width: 1158px) {
+  .third-section .container {
+    max-width: 1158px;
+  }
   .third-section {
     padding: 120px 0;
   }
